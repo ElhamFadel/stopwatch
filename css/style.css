@@ -1,0 +1,95 @@
+body{
+    background-color: #282c34;
+    color: #eae8e8;
+}
+.content-1{
+    display: none;
+}
+.content-2{
+    display: none;
+}
+.display-blk{
+    display:block;
+}
+.box {
+    width: 50%;
+    max-height: 50%;
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    top: 44%;
+    left: 25%;
+}
+span.dot {
+    font-size: 35px;
+}
+span.label {
+    font-size: 17px;
+    display: block;
+    padding-top: 1.5rem;
+}
+h1 {
+    display: inline-grid;
+    margin: 0 16px;
+}
+/* =========== Header ================*/
+ul.tabs {
+    display: flex;
+}
+header.header {
+    width: 50%;
+    max-height: 50%;
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    /* display: flex; */
+}
+li.tab {
+    list-style: none;
+    width: 43%;
+    
+    padding: 10px;
+}
+li.tab.active {
+    border: 1px solid #191b20;
+    box-shadow: inset -3px -3px #1b1d21;
+}
+/* ============ group-btn =========== */
+.group-btn {
+    margin-top: 2.5rem;
+}
+.btn {
+    padding: 13px 25px;
+    border: 0;
+    border-radius: 3px;
+    margin-left: .5rem;
+    cursor: pointer;
+}
+ #rest{
+    background-color: red;
+}
+#stop{
+    background-color: seagreen;
+}
+/* ============ count-2 =================*/
+.countDown .watch {
+    display: flex;
+}
+.countDown select{
+    width: 95%;
+    height: 40%;
+    background: #282c34;
+    color: #eae8e8;
+    /* text-align: center; */
+}
+.countDown option {
+    font-size: 18px;
+}
+.content-2.countDown {
+    position: absolute;
+    top: 45%;
+    left: 42%;
+    /* margin: 0 auto; */
+}

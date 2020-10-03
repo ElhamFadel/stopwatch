@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Stop Watch</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav ">
+            <ul class="tabs">
+                <li class="tab active">CountUp</li>
+                <li class="tab">CountDown</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <!-- ============ content-1 ==============  -->
+       <div class="box content-1 display-blk"  >
+        <div class="watch">
+           <h1 id="hours">00<span class="label">Hour(s)</span></h1>
+           <span class="dot">:</span>
+           <h1 id="minute">00<span class="label">Minute(s)</span></h1>
+           <span class="dot">:</span>
+           <h1 id="second">00 <span class="label">Second(s)</span></h1>
+           <span class="dot">:</span>
+           <h1 id="milleScond">00 <span class="label">MilleScond(s)</span></h1>
+        </div>
+        <div class="group-btn">
+            <button id="stop" class="btn" value="-1">Play</button>
+            <button id="rest" class="btn">Rest</button>
+        </div>
+       </div>
+       <!-- ============ content-2 ============== -->
+       <div class=" countDown content-2 " >
+        <div class="watch">
+          <div class="hour"><select id="hours"></select><h4 class="label">Hour(s)</h4></div>  
+            <span class="dot">:</span>
+            <div class="minute"> <select id="minutes"></select><h4 class="label">Minute(s)</h4></div>
+            <span class="dot">:</span>
+            <div id="second"><select id="seconds"></select><h4 class="label">Second(s)</h4></div>
+         </div>
+         <div class="group-btn">
+             <button id="return" class="btn" >Return</button>
+             <button id="start" class="btn" value="-1">Start</button>
+             <!-- <button id="cancel" class="btn">Cancel</button> --> <!-- Under development -->
+         </div> 
+       </div>
+
+    </main>
+    <script src="js/main.js"></script>
+</body>
+</html>
